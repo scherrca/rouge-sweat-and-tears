@@ -1,0 +1,380 @@
+/**********************************
+              GENERAL
+**********************************/
+h1, h2, header, header a
+{
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+}
+
+body
+{
+  background-color: #ebff74;
+}
+
+#portfolio_head
+{
+  font-family: 'Creepster', cursive;
+  font-size: 4em;
+  font-weight: 100;
+}
+
+a, h3, nav, #container, p, footer, #gallery
+{
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  font-size: 1.2em;
+  list-style: none;
+}
+
+#container, #album
+{
+  font-family: 'Karla';
+  background-color: #ebff74;
+  background-repeat: repeat-x;
+}
+
+/**********************************
+              HEADERS
+**********************************/
+#header1
+{
+  color: #2d346b;
+  /* color: #008080; */
+  /* light blue color: #18dae2 */
+}
+
+#header2
+{
+  color: #2d346b;
+  font-family: 'creepster';
+  /* font-family: sans-serif; */
+}
+
+h1
+{
+  background-repeat: no-repeat;
+  max-width: 500px;
+  padding-bottom: 10px;
+}
+
+
+/**********************************
+              TAGS
+**********************************/
+
+#overlay
+{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  display: none;
+  text-align: center;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+#overlay p
+{
+  color: white;
+}
+
+#subtitle
+{
+  font-size: 1.8em;
+  color: black;
+  list-style: none;
+}
+
+a
+{
+  color: #2d346b;
+}
+
+a:hover
+{
+  color: #18dae2;
+}
+
+
+/**********************************
+            NAVIGATION
+**********************************/
+nav a
+{
+  padding: 15px, 10px;
+  font-family: 'Raleway';
+}
+
+nav
+{
+  font-size: 1.5em;
+  font-family: 'Raleway';
+  background-image: url("https://s3.amazonaws.com/caitscherr/flowers/white.jpg");
+}
+
+nav ul
+{
+  list-style: none;
+  font-family: 'Raleway';
+}
+
+nav ul li
+{
+  color: #008080;
+  display: inline-block;
+  margin: 5px;
+}
+
+/**********************************
+            CONTAINERS
+**********************************/
+
+#container
+{
+  max-width: 100%;
+  margin: 0;
+  z-index: 500;
+  background-repeat: none;
+}
+
+#gallery
+{
+  padding: 2.5%;
+  max-width: 100%;
+}
+
+#gallery ul li
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  width: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+#gallery p
+{
+  padding: 2%;
+  font-size: 0.6em;
+  text-align: center;
+  color: black;
+}
+
+#slideshow
+{
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#credits
+{
+  display: inline-block;
+}
+
+/**********************************
+            SECTIONS
+**********************************/
+section
+{
+  font-size: 0.75em;
+}
+
+section ul li
+{
+  list-style: none;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 5px;
+  padding-top: 5px;
+  float: left;
+}
+
+/**********************************
+              TABLE
+**********************************/
+
+/*
+#caito
+{
+  color: #FFF;
+  position: relative;
+  margin-left: 15%;
+}
+h3
+{
+  position: absolute;
+  font-weight: 100;
+  top: 125px;
+  left: 0;
+  width: 100%;
+}
+#caitopic
+{
+    margin-top: 100px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0,0,0,.2);
+}
+*/
+
+#index_table
+{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 4em;
+}
+
+#index_table table, th, td
+{
+  width: 250px;
+  height: 250px;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.row
+{
+  display: table-row;
+  padding: 5px;
+}
+
+.cell
+{
+  display: table-cell;
+}
+
+#block_1a, #block_1b, #block_1c, #block_2a, #block_2b, #block_2c
+{
+  font-family: 'tapestry';
+  font-weight: 100;
+  max-width: 100px;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+  padding-top: 125px;
+  padding-left: 2px;
+  padding-bottom: 125px;
+}
+
+#block_1a, #block_1c, #block_2b
+{
+  background-image: url("https://s3.amazonaws.com/caitscherr/flowers/flowers2.jpg");
+}
+
+#portfolio_table table, th, td
+{
+  border-collapse: collapse;
+
+}
+
+#portfolio_table th, td
+{
+
+  text-align: left;
+}
+
+#portfolio_table tr:nth-child(odd)
+{
+  background-color: #eeeeee;
+}
+
+/**********************************
+              IMAGES
+**********************************/
+#gallery img
+{
+  width: 400px;
+  height: 300px;
+  padding: 0.5%;
+}
+
+#album
+{
+  margin: 0 auto;
+  width: 800px;
+  float: center;
+}
+
+#album ul li
+{
+  display: inline-block;
+  float: left;
+  width: 200px;
+}
+
+#album img
+{
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+.landscape
+{
+  width: 400px;
+  height: 300px;
+}
+
+.portrait
+{
+  width: 200px;
+  height: 300px;
+}
+
+#overlay img
+{
+  width: 500px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.profile
+{
+  display: block;
+  max-width: 300px;
+  margin: 0;
+  border-radius: 10%;
+  position: absolute;
+}
+
+.github
+{
+  max-width: 150px;
+}
+
+.vertical
+{
+  max-height: 100%;
+}
+
+.eightball
+{
+  border-radius: 10px;
+}
+
+/**********************************
+            FOOTER
+**********************************/
+footer
+{
+  clear: both;
+  padding-top: 50px;
+  font-size: 0.75em;
+  color: #008080;
+  height: 60px;
+  position: center;
+}
