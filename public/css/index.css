@@ -50,7 +50,6 @@ a, h3, nav, #container, p, footer, #gallery
 {
   color: #2d346b;
   font-family: 'creepster';
-  /* font-family: sans-serif; */
 }
 
 h1
@@ -112,6 +111,7 @@ nav a
 {
   padding: 15px, 10px;
   font-family: 'Raleway';
+  color: #ebff74;
 }
 
 nav
@@ -129,7 +129,8 @@ nav ul
 
 nav ul li
 {
-  color: #008080;
+  color: #ebff74;
+  /* color: #008080; */
   display: inline-block;
   margin: 5px;
 }
