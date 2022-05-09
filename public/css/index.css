@@ -13,14 +13,27 @@ body
   background-color: #ebff74;
 }
 
-#portfolio_head
+#title-header
 {
   font-family: 'Creepster', cursive;
   font-size: 4em;
   font-weight: 100;
+  color: #2d346b;
 }
 
-a, h3, nav, #container, p, footer, #gallery
+#subtitle
+{
+  font-size: 1.5em;
+  color: #2d346b;
+  list-style: none;
+}
+
+#nav-links
+{
+  color: #ebff74;
+}
+
+a, h3, nav, #container, p, footer
 {
   text-decoration: none;
   text-align: center;
@@ -29,42 +42,73 @@ a, h3, nav, #container, p, footer, #gallery
   list-style: none;
 }
 
-#container, #album
+#container
 {
-  font-family: 'Karla';
-  background-color: #ebff74;
-  background-repeat: repeat-x;
+  font-family: 'Raleway';
+  font-size: 1.2em;
+  /* background-repeat: repeat-x; */
+}
+
+a:link {
+  color: #ebff74;
+}
+
+a:hover
+{
+  color: #18dae2;
+}
+
+a:active {
+  color: #18dae2;
+}
+
+a:visited {
+  color: #ebff74;
 }
 
 /**********************************
               HEADERS
 **********************************/
-#header1
-{
-  color: #2d346b;
-  /* color: #008080; */
-  /* light blue color: #18dae2 */
-}
 
-#header2
-{
-  color: #2d346b;
-  font-family: 'creepster';
-}
-
-h1
+/* h1
 {
   background-repeat: no-repeat;
   max-width: 500px;
   padding-bottom: 10px;
+} */
+
+#subtitle_button
+{
+	background-image: 'images/water.jpeg';
+	border: none;
+	border-radius: 10%;
+	max-width: 100px;
+	height: 85%;
+  width: 100%;
+	/* color: #b0e0e6; */
 }
 
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create two equal columns that sits next to each other */
+/* .column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+} */
 /**********************************
               TAGS
 **********************************/
 
-#overlay
+/* #overlay
 {
   width: 500px;
   height: 400px;
@@ -84,56 +128,43 @@ h1
 #overlay p
 {
   color: white;
-}
+} */
 
-#subtitle
-{
-  font-size: 1.8em;
-  color: black;
-  list-style: none;
-}
-
-a
-{
-  color: #2d346b;
-}
-
-a:hover
-{
-  color: #18dae2;
-}
 
 
 /**********************************
             NAVIGATION
 **********************************/
-nav a
+/* nav a
 {
   padding: 15px, 10px;
   font-family: 'Raleway';
-  color: #ebff74;
-}
+} */
 
 nav
 {
   font-size: 1.5em;
   font-family: 'Raleway';
   background-image: url("https://s3.amazonaws.com/caitscherr/flowers/white.jpg");
-}
-
-nav ul
-{
-  list-style: none;
-  font-family: 'Raleway';
+  text-decoration: none;
 }
 
 nav ul li
 {
   color: #ebff74;
-  /* color: #008080; */
   display: inline-block;
   margin: 5px;
+  text-decoration: none;
 }
+
+
+
+/* nav ul
+{
+  list-style: none;
+  font-family: 'Raleway';
+  color: #ebff74;
+}/*
 
 /**********************************
             CONTAINERS
