@@ -1,7 +1,7 @@
 /**********************************
               GENERAL
 **********************************/
-h1, h2, header, header
+h1, h2, header, header a
 {
   text-decoration: none;
   text-align: center;
@@ -13,14 +13,27 @@ body
   background-color: #ebff74;
 }
 
-#portfolio_head
+#title-header
 {
   font-family: 'Creepster', cursive;
   font-size: 4em;
   font-weight: 100;
+  color: #2d346b;
 }
 
-h3, nav, p, footer
+#subtitle
+{
+  font-size: 1.5em;
+  color: #2d346b;
+  list-style: none;
+}
+
+#nav-links
+{
+  color: #ebff74;
+}
+
+a, h3, nav, #container, p, footer
 {
   text-decoration: none;
   text-align: center;
@@ -29,69 +42,68 @@ h3, nav, p, footer
   list-style: none;
 }
 
-/* Container holding the image and the text */
-/* .container {
-  position: relative;
-} */
-
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  /* padding-left: 20px;
-  padding-right: 20px; */
+#container
+{
+  font-family: 'Raleway';
+  font-size: 1.2em;
+  /* background-repeat: repeat-x; */
 }
 
-.container {
-   position: relative;
-   width: 50%; /* for IE 6 */
+a:link {
+  color: #ebff74;
 }
 
-h2 {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
+a:hover
+{
+  color: #18dae2;
 }
 
-h2 span {
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
+a:active {
+  color: #18dae2;
 }
 
-h2 span.spacer {
-   padding:0 5px;
+a:visited {
+  color: #ebff74;
 }
 
 /**********************************
               HEADERS
 **********************************/
-#header1
-{
-  color: #2d346b;
-}
 
-#header2
-{
-  color: #2d346b;
-  font-family: 'creepster';
-}
-
-h1
+/* h1
 {
   background-repeat: no-repeat;
   max-width: 500px;
   padding-bottom: 10px;
+} */
+
+#subtitle_button
+{
+	background-image: 'images/water.jpeg';
+	border: none;
+	border-radius: 10%;
+	max-width: 100px;
+	height: 85%;
+  width: 100%;
+	/* color: #b0e0e6; */
 }
 
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create two equal columns that sits next to each other */
+/* .column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+} */
 /**********************************
               TAGS
 **********************************/
@@ -116,47 +128,25 @@ h1
 #overlay p
 {
   color: white;
-}
-
-#subtitle
-{
-  font-size: 1.8em;
-  color: black;
-  list-style: none;
 } */
 
-a
-{
-  color: #2d346b;
-}
-
-a:hover
-{
-  color: #18dae2;
-}
 
 
 /**********************************
             NAVIGATION
 **********************************/
-nav a
+/* nav a
 {
-  /* padding: 15px, 10px; */
+  padding: 15px, 10px;
   font-family: 'Raleway';
-}
+} */
 
 nav
 {
   font-size: 1.5em;
   font-family: 'Raleway';
   background-image: url("https://s3.amazonaws.com/caitscherr/flowers/white.jpg");
-}
-
-nav ul
-{
-  list-style: none;
-  font-family: 'Raleway';
-  color: #ebff74;
+  text-decoration: none;
 }
 
 nav ul li
@@ -164,10 +154,31 @@ nav ul li
   color: #ebff74;
   display: inline-block;
   margin: 5px;
+  text-decoration: none;
 }
 
 
-/* #gallery
+
+/* nav ul
+{
+  list-style: none;
+  font-family: 'Raleway';
+  color: #ebff74;
+}/*
+
+/**********************************
+            CONTAINERS
+**********************************/
+
+#container
+{
+  max-width: 100%;
+  margin: 0;
+  z-index: 500;
+  background-repeat: none;
+}
+
+#gallery
 {
   padding: 2.5%;
   max-width: 100%;
@@ -196,7 +207,7 @@ nav ul li
 {
   margin: 0 auto;
   cursor: pointer;
-} */
+}
 
 #credits
 {
@@ -206,7 +217,7 @@ nav ul li
 /**********************************
             SECTIONS
 **********************************/
-/* section
+section
 {
   font-size: 0.75em;
 }
@@ -219,7 +230,7 @@ section ul li
   margin: 5px;
   padding-top: 5px;
   float: left;
-} */
+}
 
 /**********************************
               TABLE
@@ -254,6 +265,7 @@ h3
   table-layout: fixed;
   width: 100%;
   height: 100%;
+  font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 4em;
 }
 
@@ -276,11 +288,44 @@ h3
   display: table-cell;
 }
 
+#block_1a, #block_1b, #block_1c, #block_2a, #block_2b, #block_2c
+{
+  font-family: 'tapestry';
+  font-weight: 100;
+  max-width: 100px;
+  margin: 0 auto 30px;
+  border-radius: 10%;
+  padding-top: 125px;
+  padding-left: 2px;
+  padding-bottom: 125px;
+}
+
+#block_1a, #block_1c, #block_2b
+{
+  background-image: url("https://s3.amazonaws.com/caitscherr/flowers/flowers2.jpg");
+}
+
+#portfolio_table table, th, td
+{
+  border-collapse: collapse;
+
+}
+
+#portfolio_table th, td
+{
+
+  text-align: left;
+}
+
+#portfolio_table tr:nth-child(odd)
+{
+  background-color: #eeeeee;
+}
 
 /**********************************
               IMAGES
 **********************************/
-/* #gallery img
+#gallery img
 {
   width: 400px;
   height: 300px;
@@ -336,7 +381,7 @@ h3
   margin: 0;
   border-radius: 10%;
   position: absolute;
-} */
+}
 
 .github
 {
@@ -346,6 +391,11 @@ h3
 .vertical
 {
   max-height: 100%;
+}
+
+.eightball
+{
+  border-radius: 10px;
 }
 
 /**********************************
